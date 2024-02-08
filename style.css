@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width:800px;
+    height:500px;
+    background-color: #E8DFFF;
+    text-align: center;
+    padding-top:5%;
+}
+
+
+.btn1{
+    background-color: #07022A;
+    padding:15px 25px;
+    border-radius:55px;
+    color: #E8DFFF;
+    border: none;
+}
