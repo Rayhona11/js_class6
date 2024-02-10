@@ -1,5 +1,5 @@
-// let h = document.querySelector('h1')
-// let d = document.querySelector('div')
+let h = document.querySelector('h1')
+let d = document.querySelector('div')
 
 
 // // h.onclick = (event)=>{
@@ -44,8 +44,15 @@
 //     document.querySelector('.prop').classList.remove('rotate')
 // }
 
-document.querySelector('.btn1').onclick = () =>{
-    document.querySelector('.container').style.backgroundColor = '#07022A'
-    document.querySelector('button').style.backgroundColor = '#E8DFFF',color = '#07022A'
+let btn = document.querySelector('button')
 
-}
+btn.addEventListener('click', () =>{
+    d.classList.toggle('dark')
+    if(btn.innerText === 'NIGHT'){
+        btn.innerText = 'LIGHT'
+        h.innerText = 'HAYRLI TUN'
+    }else{
+        btn.innerText = 'NIGHT'
+        h.innerText = "HAYRLI KUN"
+    }
+})

@@ -11,8 +11,16 @@
     padding-top:5%;
 }
 
+.dark{
+    max-width:800px;
+    height:500px;
+    background-color: #07022A;
+    text-align: center;
+    padding-top:5%;
+    color: #E8DFFF;
+}
 
-.btn1{
+button{
     background-color: #07022A;
     padding:15px 25px;
     border-radius:55px;
