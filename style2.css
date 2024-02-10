@@ -11,5 +11,11 @@ body{
 
 img{
     object-fit: cover;
+    width: 600px;
+    height: 400px;
+}
+
+.a img{
+    width: 100%;
 }
 
