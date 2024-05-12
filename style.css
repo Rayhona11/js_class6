@@ -24,6 +24,6 @@ button{
     background-color:#E8DFFF ;
     padding:15px 25px;
     border-radius:55px;
-    color:07022A;
-    border: none;
+    color:#07022A;
+    border:1px solid #07022A;
 }
